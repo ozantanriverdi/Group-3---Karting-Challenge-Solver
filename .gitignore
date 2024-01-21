@@ -1,0 +1,35 @@
+# Project specific
+environments/*
+wandb/*
+plotter/training_results.html
+.codecarbon.config
+# logger/logs/*
+logs_sb3/*
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / IDE specific files
+.env
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+*.pyc
+
+# Dependency directories
+venv/
+env/
+myenv/
+lib/
+libs/
+
+# Other project-specific files or directories
+*.log
+*.swp
+.DS_Store
+
+!.gitkeep
